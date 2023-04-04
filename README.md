@@ -10,6 +10,12 @@ This application is a job search engine that will allow users to find jobs based
 
 ## [Technologies](#table-of-contents)
 
+* Node.js
+* Express.js
+* Handlebars.js
+* dotenv
+* MySQL
+
 ## [Collaborators](#table-of-contents)
 
 * [Julianne Johnson](https://github.com/juella205)
