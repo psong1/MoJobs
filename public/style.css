@@ -1,0 +1,32 @@
+body {
+  
+    background-color: rgb(61, 85, 100);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.search {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6em; 
+    width: 40em;
+    height: 20em;
+    background-color: none;
+}
+.findJobs {
+   
+    font-size: 3em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px; 
+    border: 1.5px solid white;
+    height: 2.2em;
+    width: 10em; 
+    outline: none;
+    color: white;
+    background-color: rgb(61, 85, 100);
+    position: absolute;
+    top: 3em; 
+    left: 1.6em;    
+}
