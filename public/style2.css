@@ -1,0 +1,73 @@
+:root {
+    --background1: rgb(25, 69, 96); 
+    --background2: rgb(232, 239, 237);
+    --background3: rgb(229, 239, 240);
+  }
+body {
+    display: flex;
+    flex-direction:column;
+    background-color: Var(--background1);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+.header {
+    display: flex;
+    justify-content: right;
+    align-items:flex-end;
+    height: 7em;
+    background-color: Var(--background1);
+}
+
+.nav { 
+    list-style-type:none;       
+}
+
+a {
+   margin: 1em;
+    color:rgb(226, 230, 235);
+    text-decoration: none;  
+}
+
+.login-input {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: Var(--background3);
+}
+
+.userName,
+.password,
+.confirm ,
+.sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    font-size: 20px;
+    color: VAr(--background1);
+}
+
+#User-Name,
+#Password,
+#Confirm-Password {
+    border-color: rgb(238, 244, 246);
+    height: 2.5em;
+    width: 15em;
+    margin-bottom: .5em;
+}
+
+.signUp {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    height: 3em;
+    width: 11em;
+    background-color: Var(--background1);
+    color: rgb(232, 239, 237);
+    font-size: 20px;
+}
