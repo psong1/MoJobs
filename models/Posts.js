@@ -2,9 +2,9 @@ const { Model, Datatypes } = require('sequelize');
 const sequelize = require('../config/config');
 
 // model for job posts; can be edited to best match api
-class Post extends Model {}
+class Posts extends Model {}
 
-Post.init(
+Posts.init(
     {
         id:{
             type: Datatypes.INTEGER,
@@ -31,6 +31,8 @@ Post.init(
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: 'post'
+        modelName: 'Posts'
     }
-)
+);
+
+module.exports = Posts;

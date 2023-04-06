@@ -31,7 +31,9 @@ const ses = {
 
     secret: 'Job Board',
 
-    cookie: {},
+    cookie: {
+        expires: 300 * 1000
+    },
 
     resave: false,
 
