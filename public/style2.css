@@ -1,3 +1,4 @@
+/*Variables for colors*/
 :root {
     --background1: rgb(61, 85, 100); 
     --background2: rgb(232, 239, 237);
@@ -25,7 +26,7 @@ body {
 }
 
 a {
-   margin: 1em;
+    margin: 1em;
     color:rgb(226, 230, 235);
     text-decoration: none;  
 }
