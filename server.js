@@ -1,3 +1,10 @@
+// Fastify framework and instantiation (CommonJs)
+const fastify = require('fastify')({
+    logger: true
+})
+
+
+
 const path = require('path');
 
 const express = require('express');
@@ -24,7 +31,9 @@ const ses = {
 
     secret: 'Job Board',
 
-    cookie: {},
+    cookie: {
+        expires: 300 * 1000
+    },
 
     resave: false,
 
@@ -47,10 +56,17 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(routes);
 
-app.listen(PORT, () => {
-
-    console.log(`App is listening on port ${PORT}.`);
-
-    sequelize.sync({force:false});
-
+fastify.listen({ port: 3000 }, function (err, address) {
+    if (err) {
+        fastify.log.error(err)
+        process.exit(1)
+    }
 })
+
+// app.listen(PORT, () => {
+
+//     console.log(`App is listening on port ${PORT}.`);
+
+//     sequelize.sync({force:false});
+
+// })
