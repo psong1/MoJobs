@@ -1,3 +1,14 @@
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav-item {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 body {
   
     background-color: rgb(61, 85, 100);
