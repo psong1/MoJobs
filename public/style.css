@@ -2,8 +2,14 @@
 .navbar-brand {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
+    flex: 1;
+    margin: 0 10px;
     
+}
+
+.navbar{
+    display:flex;
 }
 
 .navbar-nav {
