@@ -7,11 +7,15 @@
 
 body {
     display: flex;
-    flex-direction:column;
+    flex-direction:column; 
     background-color: Var(--background1);
     box-sizing: border-box;
     margin: 0;
-    padding: 0;   
+    padding: 0;  
+    background-image: url("asset/hero\ image.jpg");
+    background-repeat: no-repeat;
+    
+
 }
 
 #navbarNav {
@@ -20,13 +24,14 @@ body {
     justify-content: space-between;
 }
 
-.search {
+ .search { 
     display:flex;
     justify-content:center;
     align-items: center;
     height: 34.3em;
-}
-.findJobs { 
+ }  
+
+.findJobs {   
     font-size: 3em;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 15px; 
@@ -37,4 +42,9 @@ body {
     color: white;
     background-color: rgb(61, 85, 100);
     
+    
+    
 }
+
+
+
