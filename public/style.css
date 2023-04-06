@@ -2,9 +2,11 @@
 .navbar-brand {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
+    justify-content: space-evenly;
+    
 }
 
-.nav-item {
+.navbar-nav {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
 }
