@@ -15,36 +15,36 @@ const session = require('express-session');
 
 const expbars = require('express-handlebars');
 
-const routes = require('');
+const routes = require('./controllers');
 
-const helpers = require('');
+const helpers = require('./utils/helpers.js');
 
-const sequelize = require('./config/config');
+// const sequelize = require('./config/config');
 
-const SequelizeStore = require('connect-session-sequelize')(session.Store);
+// const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const app = express();
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 
 const hbs = expbars.create({helpers});
 
-const ses = {
+// const ses = {
 
-    secret: 'Job Board',
+//     secret: 'Job Board',
 
-    cookie: {
-        expires: 300 * 1000
-    },
+//     cookie: {
+//         expires: 300 * 1000
+//     },
 
-    resave: false,
+//     resave: false,
 
-    saveUninitialzed: true,
+//     saveUninitialzed: true,
 
-    store: new SequelizeStore({db:sequelize})
-};
+//     store: new SequelizeStore({db:sequelize})
+// };
 
-app.use(session(ses));
+// app.use(session(ses));
 
 app.engine('handlebars', hbs.engine);
 
@@ -56,19 +56,19 @@ app.use(express.urlencoded({extended:false}));
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(routes);
+// app.use(routes);
 
-fastify.listen({ port: 3000 }, function (err, address) {
-    if (err) {
-        fastify.log.error(err)
-        process.exit(1)
-    }
-})
-
-// app.listen(PORT, () => {
-
-//     console.log(`App is listening on port ${PORT}.`);
-
-//     sequelize.sync({force:false});
-
+// fastify.listen({ port: 3000 }, function (err, address) {
+//     if (err) {
+//         fastify.log.error(err)
+//         process.exit(1)
+//     }
 // })
+
+app.listen(PORT, () => {
+
+    console.log(`App is listening on port ${PORT}.`);
+
+    // sequelize.sync({force:false});
+
+})
