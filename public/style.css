@@ -12,9 +12,10 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;  
-    background-image: url("asset/istockphoto.jpg");
+    background-image: url("asset/istockphoto2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 #navbarNav {
