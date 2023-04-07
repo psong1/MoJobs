@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const indeedController = require('./api/indeedController');
+const indeedController = require('./api/indeed/indeedController');
 const { Posts } = require('../models')
 
 // Route for getting all job posts from the database

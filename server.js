@@ -2,7 +2,9 @@
 const fastify = require('fastify')({
     logger: true
 })
-
+// Importing routes from the controller folder
+const routes = require('./controllers');
+app.use(routes);
 
 
 const path = require('path');
