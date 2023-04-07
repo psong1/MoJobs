@@ -1,25 +1,22 @@
-// Fastify framework and instantiation (CommonJs)
-const fastify = require('fastify')({
-    logger: true
-})
+
 // Importing routes from the controller folder
 const routes = require('./controllers');
-app.use(routes);
+
 
 
 const path = require('path');
 
 const express = require('express');
 
-const session = require('express-session');
+// const session = require('express-session');
 
 const expbars = require('express-handlebars');
 
-const routes = require('./controllers');
+// const routes = require('./controllers');
 
 const helpers = require('./utils/helpers.js');
 
-// const sequelize = require('./config/config');
+const sequelize = require('./config/config');
 
 // const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
@@ -56,19 +53,12 @@ app.use(express.urlencoded({extended:false}));
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-// app.use(routes);
-
-// fastify.listen({ port: 3000 }, function (err, address) {
-//     if (err) {
-//         fastify.log.error(err)
-//         process.exit(1)
-//     }
-// })
+app.use(routes);
 
 app.listen(PORT, () => {
 
     console.log(`App is listening on port ${PORT}.`);
 
-    // sequelize.sync({force:false});
+    sequelize.sync({force:true});
 
 })

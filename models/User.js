@@ -1,106 +1,69 @@
-const {Model, DataTypes} = require ('sequelize');
+const { Model, DataTypes } = require("sequelize");
 
-const bcrypt = require('bcrypt');
+const bcrypt = require("bcrypt");
 
-const sequelize = require('../config/config');
+const sequelize = require("../config/config");
 
 class User extends Model {
-
-    checkPassword(loginpassword) {
-
-        return bcrypt.compareSync(loginpassword, this.password);
-
-    }
-
+  checkPassword(loginpassword) {
+    return bcrypt.compareSync(loginpassword, this.password);
+  }
 }
 
-User.init (
+User.init(
+  {
+    id: {
+      type: DataTypes.INTEGER,
 
-    {
+      allowNull: false,
 
-        id: {
+      primaryKey: true,
 
-            type: DataTypes.INTEGER,
-
-            allowNull: false,
-
-            primaryKey: true,
-
-            autoIncrement: true,
-
-        },
-
-        username: {
-
-            type: DataTypes.STRING,
-
-            allowNull: false,
-
-            unique: true,
-
-        },
-
-        email: {
-
-            type: DataTypes.STRING,
-
-            allowNull: true,
-
-            validate: {isEmail:true,},
-        
-        },
-
-        password: {
-
-            type: DataTypes.STRING,
-
-            allowNull: false,
-
-            validate: {
-                len: [8],
-                isAlphanumeric: true,
-                isUppercase: true,
-                isLowercase: true
-            }
-        },
-
+      autoIncrement: true,
     },
 
-    {
+    username: {
+      type: DataTypes.STRING,
 
-        hooks: {
+      allowNull: false,
 
-            priorCreate: async(newUserInfo) => {
+      unique: true,
+    },
 
-                newUserInfo.password = await bcrypt.hash(newUserInfo.password, 10);
+    email: {
+      type: DataTypes.STRING,
 
-                return newUserInfo;
+      allowNull: true,
 
-            },
+      validate: { isEmail: true },
+    },
 
-            priorUpdate: async(updatedUserInfo) => {
+    password: {
+      type: DataTypes.STRING,
 
-                updatedUserInfo.password = await bcrypt.hash(updatedUserInfo.password, 10);
+      allowNull: false,
 
-                return updatedUserInfo;
-                
-            },
+      validate: {
+        len: [8],
+        //             isAlphanumeric: true,
+        //             isUppercase: true,
+        //             isLowercase: true
+        //         }
+      },
+    },
+  },
 
-        },
+  {
+    sequelize,
 
-        sequelize,
+    timestamps: false,
 
-        timestamps: false,
+    freezeTableName: true,
 
-        freezeTableName: true,
+    underscored: true,
 
-        underscored: true,
-
-        modelName: 'user',
-
-
-    }
-
+    modelName: "user",
+  }
 );
 
 module.exports = User;
