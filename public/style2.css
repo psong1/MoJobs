@@ -13,6 +13,7 @@ body {
     flex-flow: column wrap;
     background-image: url("asset/sign\ up.png");
     opacity: .9;
+    font-family: 'Open Sans', sans-serif;
       
 }
 
@@ -38,6 +39,8 @@ a {
     color:rgb(226, 230, 235);
     text-decoration: none; 
     color: black; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
 }
 
 .signUp-input {
@@ -46,6 +49,7 @@ a {
     flex-direction: column;
     justify-content: center;
     background-color: Var(--background3);
+    font-family: 'Open Sans', sans-serif;
     
 }
 
