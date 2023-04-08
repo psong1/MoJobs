@@ -1,5 +1,5 @@
 /*Variables for colors*/
-:root {
+  :root {  
     --background1: rgb(61, 85, 100); 
     --background2: rgb(232, 239, 237);
     --background3: rgb(229, 239, 240);
@@ -7,28 +7,37 @@
 body {
     display: flex;
     flex-direction:column;
-    background-color: Var(--background1);
     box-sizing: border-box;
     margin: 0;
-    padding: 0;   
+    padding: 0; 
+    flex-flow: column wrap;
+    background-image: url("asset/sign\ up.png");
+    opacity: .9;
+      
 }
 
 .header {
+    background-image: url("asset/sign\ up.png");
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items:flex-end;
     height: 7em;
     background-color: Var(--background1);
+    font-size: large;
+    
+    
 }
 
 .nav { 
-    list-style-type:none;       
+    list-style-type:none;
+      
 }
 
 a {
     margin: 1em;
     color:rgb(226, 230, 235);
-    text-decoration: none;  
+    text-decoration: none; 
+    color: black; 
 }
 
 .signUp-input {
@@ -37,6 +46,7 @@ a {
     flex-direction: column;
     justify-content: center;
     background-color: Var(--background3);
+    
 }
 
 .userName,
@@ -72,3 +82,7 @@ a {
     color: rgb(232, 239, 237);
     font-size: 20px;
 }
+
+
+
+
