@@ -19,6 +19,7 @@ body {
     justify-content: right;
     align-items:flex-end;
     height: 7em; 
+    justify-content: left;
 }
 
 .nav { 
@@ -74,3 +75,5 @@ a {
     font-size: 20px;
     cursor: pointer;
 }
+
+
