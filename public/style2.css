@@ -23,10 +23,9 @@ body {
     justify-content: left;
     align-items:flex-end;
     height: 7em;
-    background-color: Var(--background1);
     font-size: large;
-    
-    
+
+
 }
 
 .nav { 
@@ -36,11 +35,10 @@ body {
 
 a {
     margin: 1em;
-    color:rgb(226, 230, 235);
     text-decoration: none; 
-    color: black; 
+    color:  rgb(61, 85, 100); 
     font-family: 'Open Sans', sans-serif;
-    font-size: large;
+    font-size: larger;
 }
 
 .signUp-input {
@@ -48,8 +46,9 @@ a {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    background-color: Var(--background3);
-    font-family: 'Open Sans', sans-serif;
+    background-color: whitesmoke;
+    
+    
     
 }
 
@@ -82,11 +81,20 @@ a {
     border-radius: 8px;
     height: 3em;
     width: 11em;
-    background-color: Var(--background1);
+    background-color: rgb(140, 167, 240);
     color: rgb(232, 239, 237);
     font-size: 20px;
+    cursor: pointer;
 }
 
+.signUp:focus{
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2em rgba(#fff,0);
+}
 
-
+.signUp:hover{
+    background-color: #862c2c8f;
+    letter-spacing: 2px;
+    transition: 1s ease-in-out;
+}
 
