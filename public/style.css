@@ -13,11 +13,8 @@ body {
     margin: 0;
     padding: 0;  
     background-image: url("asset/istockphoto2.jpg");
-    background-repeat: no-repeat;
+    font-weight: bold; 
     background-size: cover;
-    font-weight: bold;
-
-    
 }
 
 #navbarNav {
