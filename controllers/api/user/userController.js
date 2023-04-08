@@ -1,7 +1,10 @@
-const { User } = require('../models');
+const { User } = require('../../../models');
 const bcrypt = require('bcrypt');
+const router = require('express').Router();
 
-exports.createUser = async (req, res) => {
+// TEST route /api/users/users
+
+router.post('/', async (req, res) => {
   try {
     const { username, password } = req.body;
 
@@ -23,9 +26,9 @@ exports.createUser = async (req, res) => {
     console.error(err);
     res.status(500).send('Error creating user');
   }
-};
+  });
 
-exports.getUserById = async (req, res) => {
+router.get('/:id', async (req, res) => {
   try {
     const user = await User.findByPk(req.params.id);
     if (!user) {
@@ -36,9 +39,9 @@ exports.getUserById = async (req, res) => {
     console.error(err);
     res.status(500).send('Error getting user');
   }
-};
+});
 
-exports.updateUser = async (req, res) => {
+router.patch('/:id', async (req, res) => {
   try {
     const user = await User.findByPk(req.params.id);
     if (!user) {
@@ -53,9 +56,9 @@ exports.updateUser = async (req, res) => {
     console.error(err);
     res.status(500).send('Error updating user');
   }
-};
+});
 
-exports.deleteUser = async (req, res) => {
+router.delete('/:id', async (req, res) => {
   try {
     const user = await User.findByPk(req.params.id);
     if (!user) {
@@ -70,4 +73,6 @@ exports.deleteUser = async (req, res) => {
     console.error(err);
     res.status(500).send('Error deleting user');
   }
-};
+});
+
+module.exports = router;
