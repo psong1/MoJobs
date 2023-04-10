@@ -12,8 +12,8 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;  
-    background-image: url("asset/istockphoto.jpg");
-    background-repeat: no-repeat;
+    background-image: url("asset/istockphoto2.jpg");
+    font-weight: bold; 
     background-size: cover;
 }
 
@@ -22,7 +22,7 @@ body {
     flex-wrap: wrap;
     justify-content: right;
     font-family: 'Open Sans', sans-serif;
-    font-size: large;
+    font-size: larger;
 
 }
 
@@ -47,12 +47,14 @@ body {
     border-width: 8px;
     border-style: double;
     font-family: 'Open Sans', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     
 }
 
 .findJobs:hover{
-    background-color: darkgoldenrod
+    background-color: rgb(113, 112, 192);
+    letter-spacing: 2px;
+    transition: 1s ease-in-out;
 }
 
 
