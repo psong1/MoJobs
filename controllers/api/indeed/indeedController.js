@@ -1,51 +1,28 @@
-// uses axios to make a GET request to the Indeed API
+// uses axios to make a GET request to the SerpAPI
 // job listings are parsed from the response data and passed to the job-listings
+const apiKey = process.env.SERPAPI_KEY;
 
 const axios = require('axios');
 const express = require('express');
 const router = express.Router();
-
-router.get('/jobs', (req, res) => {
-  const searchTerm = req.params.searchTerm;
-  const apiKey = process.env.RAPIDAPI_KEY; // The RapidAPI key
-
-  const apiUrl = `https://indeed-com.p.rapidapi.com/search/jobs?q=${searchTerm}&limit=10`;
-
-  const options = {
-    headers: {
-      'x-rapidapi-key': apiKey,
-      'x-rapidapi-host': 'indeed-com.p.rapidapi.com'
+  
+  router.get('/search', async (req, res, next) => {
+    try {
+      const { query } = req.query;
+      const response = await axios.get('https://serpapi.com/search', {
+        params: {
+          api_key: apiKey,
+          q: query,
+          output: 'json',
+          hl: 'en',
+          location: 'United States',
+          google_domain: 'google.com'
+        }
+      });
+      res.json(response.data);
+    } catch (error) {
+      next(error);
     }
-  };
-
-  axios
-    .get(apiUrl, options)
-    .then(response => {
-      const jobListings = response.data.results;
-      res.render('job-listings', { jobListings });
-    })
-    .catch(error => {
-      console.error(error);
-      res.render('error', { message: 'Error retrieving job listings' });
-    });
-});
-
-module.exports = router;
-
-// const axios = require("axios");
-
-// const options = {
-//   method: 'GET',
-//   url: 'https://indeed-indeed.p.rapidapi.com/apigetjobs',
-//   params: {publisher: '<REQUIRED>', jobkeys: '<REQUIRED>', v: '2', format: 'json'},
-//   headers: {
-//     'X-RapidAPI-Key': 'cdf8152cc0mshacae05de6ad9963p13c06bjsnebb7ec23a5f1',
-//     'X-RapidAPI-Host': 'indeed-indeed.p.rapidapi.com'
-//   }
-// };
-
-// axios.request(options).then(function (response) {
-// 	console.log(response.data);
-// }).catch(function (error) {
-// 	console.error(error);
-// });
+  });
+  
+  module.exports = router;
