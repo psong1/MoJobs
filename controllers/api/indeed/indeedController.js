@@ -1,11 +1,12 @@
 // uses axios to make a GET request to the Indeed API
 // job listings are parsed from the response data and passed to the job-listings
 
-const axios = require('axios');
 const express = require('express');
 const router = express.Router();
+const axios = require('axios');
 
-router.get('/jobs', (req, res) => {
+router.get('/jobs/:searchTerm', (req, res) => {
+
   const searchTerm = req.params.searchTerm;
   const apiKey = process.env.RAPIDAPI_KEY; // The RapidAPI key
 
@@ -30,22 +31,5 @@ router.get('/jobs', (req, res) => {
     });
 });
 
+
 module.exports = router;
-
-// const axios = require("axios");
-
-// const options = {
-//   method: 'GET',
-//   url: 'https://indeed-indeed.p.rapidapi.com/apigetjobs',
-//   params: {publisher: '<REQUIRED>', jobkeys: '<REQUIRED>', v: '2', format: 'json'},
-//   headers: {
-//     'X-RapidAPI-Key': 'cdf8152cc0mshacae05de6ad9963p13c06bjsnebb7ec23a5f1',
-//     'X-RapidAPI-Host': 'indeed-indeed.p.rapidapi.com'
-//   }
-// };
-
-// axios.request(options).then(function (response) {
-// 	console.log(response.data);
-// }).catch(function (error) {
-// 	console.error(error);
-// });

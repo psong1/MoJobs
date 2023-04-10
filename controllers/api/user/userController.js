@@ -1,6 +1,11 @@
+
+const express = require('express');
+const router = express.Router();
+
 const { User } = require('../../../models');
 const bcrypt = require('bcrypt');
 const router = require('express').Router();
+
 
 // TEST route /api/users/users
 
@@ -25,8 +30,7 @@ router.post('/', async (req, res) => {
   } catch (err) {
     console.error(err);
     res.status(500).send('Error creating user');
-  }
-  });
+}
 
 router.get('/:id', async (req, res) => {
   try {
@@ -76,3 +80,4 @@ router.delete('/:id', async (req, res) => {
 });
 
 module.exports = router;
+
