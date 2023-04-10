@@ -1,34 +1,28 @@
-// uses axios to make a GET request to the Indeed API
+// uses axios to make a GET request to the SerpAPI
 // job listings are parsed from the response data and passed to the job-listings
+const apiKey = process.env.SERPAPI_KEY;
 
+const axios = require('axios');
 const express = require('express');
 const router = express.Router();
-const axios = require('axios');
-
-router.get('/jobs/:searchTerm', (req, res) => {
-  const searchTerm = req.params.searchTerm;
-  const apiKey = process.env.RAPIDAPI_KEY; // The RapidAPI key
-
-  const apiUrl = `https://indeed-com.p.rapidapi.com/search/jobs?q=${searchTerm}&limit=10`;
-
-  const options = {
-    headers: {
-      'x-rapidapi-key': apiKey,
-      'x-rapidapi-host': 'indeed-com.p.rapidapi.com'
+  
+  router.get('/search', async (req, res, next) => {
+    try {
+      const { query } = req.query;
+      const response = await axios.get('https://serpapi.com/search', {
+        params: {
+          api_key: apiKey,
+          q: query,
+          output: 'json',
+          hl: 'en',
+          location: 'United States',
+          google_domain: 'google.com'
+        }
+      });
+      res.json(response.data);
+    } catch (error) {
+      next(error);
     }
-  };
-
-  axios
-    .get(apiUrl, options)
-    .then(response => {
-      const jobListings = response.data.results;
-      res.render('job-listings', { jobListings });
-    })
-    .catch(error => {
-      console.error(error);
-      res.render('error', { message: 'Error retrieving job listings' });
-    });
-});
-
-module.exports = router;
-
+  });
+  
+  module.exports = router;

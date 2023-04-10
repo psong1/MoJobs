@@ -2,8 +2,6 @@
 // Importing routes from the controller folder
 const routes = require('./controllers');
 
-
-
 const path = require('path');
 
 const express = require('express');

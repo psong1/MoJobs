@@ -27,6 +27,6 @@ router.get('/posts', async (req, res) => {
   });
   
 // Route for getting job listings from the Indeed API
-router.get('/jobs/:searchTerm', indeedController.getJobListings);
+// router.get('/jobs/:searchTerm', indeedController.getJobListings);
 
 module.exports = router;
