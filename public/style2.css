@@ -1,5 +1,5 @@
 /*Variables for colors*/
-:root {
+  :root {  
     --background1: rgb(61, 85, 100); 
     --background2: rgb(232, 239, 237);
     --background3: rgb(229, 239, 240);
@@ -7,28 +7,38 @@
 body {
     display: flex;
     flex-direction:column;
-    background-color: Var(--background1);
     box-sizing: border-box;
     margin: 0;
-    padding: 0;   
+    padding: 0; 
+    flex-flow: column wrap;
+    background-image: url("asset/sign\ up.png");
+    opacity: .9;
+    font-family: 'Open Sans', sans-serif;
+      
 }
 
 .header {
+    background-image: url("asset/sign\ up.png");
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items:flex-end;
     height: 7em;
-    background-color: Var(--background1);
+    font-size: large;
+
+
 }
 
 .nav { 
-    list-style-type:none;       
+    list-style-type:none;
+      
 }
 
 a {
     margin: 1em;
-    color:rgb(226, 230, 235);
-    text-decoration: none;  
+    text-decoration: none; 
+    color:  rgb(61, 85, 100); 
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
 }
 
 .signUp-input {
@@ -36,7 +46,10 @@ a {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    background-color: Var(--background3);
+    background-color: whitesmoke;
+    
+    
+    
 }
 
 .userName,
@@ -68,7 +81,20 @@ a {
     border-radius: 8px;
     height: 3em;
     width: 11em;
-    background-color: Var(--background1);
+    background-color: rgb(140, 167, 240);
     color: rgb(232, 239, 237);
     font-size: 20px;
+    cursor: pointer;
 }
+
+.signUp:focus{
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2em rgba(#fff,0);
+}
+
+.signUp:hover{
+    background-color: #862c2c8f;
+    letter-spacing: 2px;
+    transition: 1s ease-in-out;
+}
+
