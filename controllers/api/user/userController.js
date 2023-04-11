@@ -3,11 +3,13 @@ const bcrypt = require('bcrypt');
 const router = require('express').Router();
 
 
-// TEST route /api/users/users
+// TEST route /api/users/users/
 
 router.post('/', async (req, res) => {
+  console.log('Made it here');
   try {
-    const { username, password } = req.body;
+    const username = req.body.username;
+    const password = req.body.password;
 
     // Check if the user already exists
     const existingUser = await User.findOne({ where: { username } });
@@ -25,23 +27,8 @@ router.post('/', async (req, res) => {
     res.status(201).send('User created successfully');
   } catch (err) {
     console.error(err);
-    res.status(500).send('Error creating user');
+    res.status(500).json(err);
 }
-
-router.post('/', async (req, res) => {
-  try {
-    const userData = await User.create(req.body);
-
-    req.session.save(() => {
-      req.session.user_id = userData.id;
-      req.session.logged_in = true;
-
-      res.status(200).json(userData);
-    });
-  } catch (err) {
-    res.status(400).json(err);
-  }
-});
 
 router.get('/:id', async (req, res) => {
   try {
@@ -90,6 +77,6 @@ router.delete('/:id', async (req, res) => {
   }
 })
 });
-
+});
 module.exports = router;
 

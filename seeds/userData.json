@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "username": "psong11",
+        "email": "paulsong29@gmail.com",
+        "password": "password12345"
+    },
+    {
+        "id": 2,
+        "username": "larry1",
+        "email": "livinglikelarry@gmail.com",
+        "password": "larry12345"
+    },
+    {
+        "id": 3,
+        "username": "test",
+        "email": "testing1@gmail.com",
+        "password": "testing123"
+    }
+]
+

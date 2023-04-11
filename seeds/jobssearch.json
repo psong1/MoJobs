@@ -1,0 +1,82 @@
+[{
+
+        "title": "Full-Stack Web Developer",
+
+        "description": "This role will requires someone who can work on both the back-end and front-end of systems. This employee will develop fully fledged platforms (databases, servers and clients) which don't need other applications to function",
+
+        "location": "Atlanta, GA",
+
+        "salary": "$125,000 - 200,000",
+
+        "type": "Full-Time, Junior - Sr level",
+
+        "company": "Google"
+
+    },
+
+    {
+
+        "title": "Mechanical Engineer",
+
+        "description": "This role will requires someone who can design, develop, build, and test power-producing machines, specifically electric generators, internal combustion engines, and steam and gas turbines",
+
+        "location": "Remote",
+
+        "salary": "$75,000 - 125,000",
+
+        "type": "Contract, Entry Level",
+
+        "company": "Nike"
+
+
+    },
+
+    {
+
+        "title": "Financial Advisor",
+
+        "description": "This role will requires someone who can assess the financial needs of individuals and help them with decisions on investments. The candidate will help clients plan for short and long term goals, such as budgeting for education expenses and saving for retirement through investments",
+
+        "location": "Memphis, Tennesse",
+
+        "salary": "$105,000 - 150,000",
+
+        "type": "Full-Time, Junior - Sr level",
+
+        "company": "Wells Fargo"
+
+    },
+
+    {
+
+        "title": "VP",
+
+        "description": "This role will requires someone who can support the presidency by overseeing internal operations and stepping in when the president/CEO is unavailable. This candidate will have a top-level leadership role in this company and oversee department managers.",
+
+        "location": "Columbus, Ohio",
+
+        "salary": "$200,000 - 275,000",
+
+        "type": "Full-Time, Sr level",
+
+        "company": "JPMorgan Chase & CO."
+
+    },
+
+    {
+
+        "title": "Architect",
+
+        "description": "This role will requires someone who can plan and design, and/or facilitate the execution of new building designs, and plan, design and/or facilitate the execution of building expansions or renovations according to client needs, desires, and financial resources.",
+
+        "location": "Miami, Florida",
+
+        "salary": "$70,000 - 90,000",
+
+        "type": "Contract, Entry level",
+
+        "company": "Gensler"
+
+    }
+    
+]

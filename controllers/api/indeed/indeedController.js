@@ -20,6 +20,7 @@ const router = express.Router();
         }
       });
       res.json(response.data);
+      console.log(data);
     } catch (error) {
       next(error);
     }
