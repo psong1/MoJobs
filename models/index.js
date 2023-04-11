@@ -13,7 +13,7 @@ Search.hasMany(Posts, {
 });
 
 Posts.belongsTo(Search, {
-    foreignKey: 'search_id',
+    foreignKey: 'post_id',
 })
 
 Search.belongsTo(User, {
