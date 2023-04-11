@@ -23,7 +23,21 @@ Posts.init(
         location: {
             type: DataTypes.TEXT,
             allowNull: false
-        }
+        },
+        type: {
+            type: DataTypes.TEXT,
+            allowNull:false
+        },
+        salary: {
+            type: DataTypes.STRING,
+            allowNull:false
+        },
+        company: {
+            type: DataTypes.STRING,
+            allowNull:false
+        },
+
+
     },
     
     {
