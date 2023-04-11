@@ -75,7 +75,7 @@ router.delete('/:id', async (req, res) => {
     console.error(err);
     res.status(500).send('Error deleting user');
   }
-});
+})
 });
 module.exports = router;
 
