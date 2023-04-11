@@ -1,8 +1,8 @@
 const sequelize = require('../config/config');
 
-const { User, Posts } = require('../models');
+// const { User, Posts } = require('../models');
 
-const userData = require('./userData.json');
+const userData = require('./userData');
 const jobsearch = require('./jobssearch.json');
 
 
