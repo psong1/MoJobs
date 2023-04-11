@@ -40,7 +40,7 @@ User.init (
                 // isLowercase: true
             }
         },
-
+    },
   {
     sequelize,
 
@@ -51,7 +51,6 @@ User.init (
     underscored: true,
 
     modelName: "user",
-  }
-);
+  });
 
 module.exports = User;

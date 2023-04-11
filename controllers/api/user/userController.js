@@ -1,7 +1,3 @@
-
-const express = require('express');
-const router = express.Router();
-
 const { User } = require('../../../models');
 const bcrypt = require('bcrypt');
 const router = require('express').Router();
@@ -92,6 +88,7 @@ router.delete('/:id', async (req, res) => {
     console.error(err);
     res.status(500).send('Error deleting user');
   }
+})
 });
 
 module.exports = router;
