@@ -13,7 +13,7 @@ class User extends Model {
 
 User.init (
 
-    {
+  {
         id: {
             type: DataTypes.INTEGER,
             allowNull: false,
@@ -40,8 +40,8 @@ User.init (
                 // isLowercase: true
             }
         },
-
-  {
+  },
+    {
     sequelize,
 
     timestamps: false,
@@ -51,7 +51,7 @@ User.init (
     underscored: true,
 
     modelName: "user",
-  }
+  },
 );
 
 module.exports = User;
