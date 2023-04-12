@@ -319,6 +319,48 @@
 
         "company": "Nissan"
 
+    },
+
+    {
+        "title": "Night-shift Stocker",
+
+        "description": "This role will require someone who can assist customers who are looking for products. You will stock shelves in a timely manner and Front and tidy shelves afer the store is closed.",
+
+        "location": "Rainbow City, Alabam",
+
+        "salary": "$35,000 - 45,000",
+
+        "type": "Full-Time, Entry-level",
+
+        "company": "Publix"
+    },
+
+    {
+        "title": "Driver",
+
+        "description": "As a Professional Dash driver you are expected to handle the customers food with care and respect, while delivering in a timely manner.",
+
+        "location": "Charleston, NC",
+
+        "salary": "$35,000 - 65,000",
+
+        "type": "Full-Time, Entry-level",
+
+        "company": "Uber"
+    },
+
+    {
+        "title": "Backend-Developer",
+
+        "description": "As a Professional Dash driver you are expected to handle the customers food with care and respect, while delivering in a timely manner.",
+
+        "location": "Charleston, NC",
+
+        "salary": "$65,000 - 75,000",
+
+        "type": "Full-Time",
+
+        "company": "ICBM"
     }
      
 ]
