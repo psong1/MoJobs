@@ -63,12 +63,15 @@ main {
     text-align: center;
     text-decoration: none;
     color: var(--text2);
+    font-size: medium;
   }
   
   /* logo's width*/
   .card img {
-    width: 100%;
+    width: 70%;
   }
+
+ 
 
   /*hover efect on text below image-logo*/
   p:hover{
