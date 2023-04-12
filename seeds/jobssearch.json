@@ -2,7 +2,7 @@
 
         "title": "Full-Stack Web Developer",
 
-        "description": "This role will requires someone who can work on both the back-end and front-end of systems. This employee will develop fully fledged platforms (databases, servers and clients) which don't need other applications to function",
+        "description": "This role will require someone who can work on both the back-end and front-end of systems. This employee will develop fully fledged platforms (databases, servers and clients) which don't need other applications to function",
 
         "location": "Atlanta, GA",
 
@@ -18,7 +18,7 @@
 
         "title": "Mechanical Engineer",
 
-        "description": "This role will requires someone who can design, develop, build, and test power-producing machines, specifically electric generators, internal combustion engines, and steam and gas turbines",
+        "description": "This role will require someone who can design, develop, build, and test power-producing machines, specifically electric generators, internal combustion engines, and steam and gas turbines",
 
         "location": "Remote",
 
@@ -35,7 +35,7 @@
 
         "title": "Financial Advisor",
 
-        "description": "This role will requires someone who can assess the financial needs of individuals and help them with decisions on investments. The candidate will help clients plan for short and long term goals, such as budgeting for education expenses and saving for retirement through investments",
+        "description": "This role will require someone who can assess the financial needs of individuals and help them with decisions on investments. The candidate will help clients plan for short and long term goals, such as budgeting for education expenses and saving for retirement through investments",
 
         "location": "Memphis, Tennesse",
 
@@ -51,7 +51,7 @@
 
         "title": "VP",
 
-        "description": "This role will requires someone who can support the presidency by overseeing internal operations and stepping in when the president/CEO is unavailable. This candidate will have a top-level leadership role in this company and oversee department managers.",
+        "description": "This role will require someone who can support the presidency by overseeing internal operations and stepping in when the president/CEO is unavailable. This candidate will have a top-level leadership role in this company and oversee department managers.",
 
         "location": "Columbus, Ohio",
 
@@ -67,7 +67,7 @@
 
         "title": "Architect",
 
-        "description": "This role will requires someone who can plan and design, and/or facilitate the execution of new building designs, and plan, design and/or facilitate the execution of building expansions or renovations according to client needs, desires, and financial resources.",
+        "description": "This role will require someone who can plan and design, and/or facilitate the execution of new building designs, and plan, design and/or facilitate the execution of building expansions or renovations according to client needs, desires, and financial resources.",
 
         "location": "Miami, Florida",
 
@@ -77,6 +77,248 @@
 
         "company": "Gensler"
 
-    }
+    },
+
+    {
+
+        "title": "Back-End Developer",
+
+        "description": "This role will require someone who can work on server-side software, which focuses on everything you can't see on a website. Ensure platforms perform correctly, focusing on databases, back-end logic, application programming APIs, architecture, and servers.",
+
+        "location": "Los Angeles, California",
+
+        "salary": "$90,000 - 115,000",
+
+        "type": "Full-Time, Entry level",
+
+        "company": "Walgreens"
+
+    },
+
+    {
+
+        "title": "Front-End Developer",
+
+        "description": "This role will require someone who can work on implementing visual elements that users see and interact with in a web application. This individual will be supported by back-end developers, who will be responsible for the server-side application logic and integration of the work front-end developers do.",
+
+        "location": "San Francisco, California",
+
+        "salary": "$90,000 - 115,000",
+
+        "type": "Full-Time, Entry level",
+
+        "company": "Bank of America"
+
+    },
+
     
+    {
+
+        "title": "Calculus University Professor",
+
+        "description": "This role will require someone who can fully understand and explain mathematical concepts, statistics, and actuarial science and to the application of original and standardized mathematical techniques in solving specific problems and situations.",
+
+        "location": "Atlanta, Georgia",
+
+        "salary": "$100,000 - 125,000",
+
+        "type": "Full-Time, Sr. level",
+
+        "company": "Georgia Institute of Technology"
+
+    },
+
+     
+    {
+
+        "title": "Carpenter",
+
+        "description": "This role will require someone who works with construction crews to build, adjust and repair wood frameworks in various construction projects. They work with their hands, using tools to build and install frameworks that last a lifetime.",
+
+        "location": "Detroit, Michigan",
+
+        "salary": "$75,000 - 125,000",
+
+        "type": "Contract, Junior - Sr. level",
+
+        "company": "Tradesmen International, Inc."
+
+    },
+         
+    {
+
+        "title": "Casino Manager",
+
+        "description": "This role will require someone who can administer policies, monitor the gaming area, and assure compliance with regulatory requirements.",
+
+        "location": "Cheroee, North Carolina",
+
+        "salary": "$85,000 - 105,000",
+
+        "type": "Full-Time, Junior - Sr. level",
+
+        "company": "Cherokee Casino"
+
+    },
+
+    {
+
+        "title": "Truck Driver",
+
+        "description": "This role will require someone who can pick up goods and materials, verify loads for accuracy, and deliver them as instructed. Load and unload cargo at times as well.",
+
+        "location": "New York City, New York",
+
+        "salary": "$60,000 - 75,000",
+
+        "type": "Full-Time, Entry-Level",
+
+        "company": "UPS"
+
+    },
+    
+    {
+
+        "title": "Investment Banking Associate",
+
+        "description": "This role will require someone who help their clients raise money in capital markets by issuing debt or selling equity in the companies.",
+
+        "location": "Atlanta, Georgia",
+
+        "salary": "$125,000 - 175,000",
+
+        "type": "Full-Time, Junior - Sr. level",
+
+        "company": "Truist"
+
+    },
+
+    {
+
+        "title": "Store Manager",
+
+        "description": "This role will require someone who plans and directs the day-to-day operations of the store. Develop strategies to improve customer service, drive store sales, increase profitability, etc.",
+
+        "location": "Denver, Colorado",
+
+        "salary": "$65,000 - 85,000",
+
+        "type": "Contract, Junior - Sr. level",
+
+        "company": "Adidas"
+
+    },
+
+    {
+
+        "title": "Restaurant Manager",
+
+        "description": "This role will require someone who makes sure the restaurant runs smoothly. Hire and train staff that follow company policies. In addition, speak with customers about any concerns or problems, while also creating work schedules.",
+
+        "location": "Jacksonville, Florida",
+
+        "salary": "$95,000 - 125,000",
+
+        "type": "Full-Time, Sr. level",
+
+        "company": "Fogo De Chao"
+
+    },
+    
+    {
+
+        "title": "Associate Private Banker",
+
+        "description": "This role will require someone who can manage money and oversee financial activities for high net-worth clients while developing relationships with clients.",
+
+        "location": "Philadelphia, Pennsylvania",
+
+        "salary": "$105,000 - 140,000",
+
+        "type": "Full-Time, Junior - Sr. level",
+
+        "company": "Morgan Stanley"
+
+    },
+
+    {
+
+        "title": "Electrical Engineer",
+
+        "description": "This role will require someone who can design, develop, test, and supervise the manufacture of electrical equipment, such as electric motors, radar and navigation systems, communication systems, or power generation equipment.",
+
+        "location": "Madison, Winsconsin",
+
+        "salary": "$75,000 - 125,000",
+
+        "type": "Full-Time, Entry-level",
+
+        "company": "Tesla"
+
+    },
+
+    {
+
+        "title": "Personal Trainer",
+
+        "description": "This role will require someone who can evaluate their clients' current fitness level, personal goals, and skills. Then, they develop personalized training programs for their clients to follow and monitor the clients' progress.",
+
+        "location": "Brooklyn, New York",
+
+        "salary": "$65,000 - 80,000",
+
+        "type": "Full-Time, Junior - Sr. level",
+
+        "company": "LA Fitness"
+
+    },
+    
+    {
+
+        "title": "Store Employee",
+
+        "description": "This role will require someone who maintains the daily material concerns of a store. This individual will show hospitality to customers and provide assistance with food service.",
+
+        "location": "Baltimore, Maryland",
+
+        "salary": "$50,000 - 55,000",
+
+        "type": "Full-Time, Entry-level",
+
+        "company": "Panera Bread"
+
+    },
+    
+    {
+
+        "title": "Pipeline Engineer",
+
+        "description": "This role will require someone who can design and construct pipe systems for transporting a variety of substances such as gas and oil.",
+
+        "location": "Atlanta, Georgia",
+
+        "salary": "$75,000 - 85,000",
+
+        "type": "Contract, Entry-level",
+
+        "company": "Southern Gas Company"
+
+    },
+
+    {
+
+        "title": "Car Salesman",
+
+        "description": "This role will require someone who can assist customers who are looking to purchase a new or used vehicle. They converse with customers to find out their budget and wish list, helping them find a suitable car that matches their needs.",
+
+        "location": "Seattle, Washington",
+
+        "salary": "$65,000 - 75,000",
+
+        "type": "Full-Time, Entry-level",
+
+        "company": "Nissan"
+
+    }
+     
 ]
