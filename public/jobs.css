@@ -61,7 +61,7 @@ main {
   
   .jobs {
     flex: 4;
-    background-color: #fff;
+    background-color: #85dddd;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
