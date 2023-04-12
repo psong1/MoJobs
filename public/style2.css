@@ -41,21 +41,18 @@ a {
     font-size: larger;
 }
 
-.signUp-input {
+.form signup-form signUp-input {
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    background-color: whitesmoke;
+    background-color: black;
     
     
     
 }
 
-.userName,
-.password,
-.confirm ,
-.sign {
+.form-group{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,16 +63,16 @@ a {
     color: VAr(--background1);
 }
 
-#User-Name,
-#Password,
-#Confirm-Password {
-    border-color: rgb(238, 244, 246);
+#name-signup User,
+#email-signup,
+#password-signup{
+    border-color: rgb(3, 50, 65);
     height: 2.5em;
     width: 15em;
     margin-bottom: .5em;
 }
 
-.signUp {
+.btn {
     margin-top: 1em;
     margin-bottom: 1em;
     border-radius: 8px;
@@ -87,12 +84,12 @@ a {
     cursor: pointer;
 }
 
-.signUp:focus{
+.btn:focus{
     animation: pulse 1s;
     box-shadow: 0 0 0 2em rgba(#fff,0);
 }
 
-.signUp:hover{
+.btn:hover{
     background-color: #862c2c8f;
     letter-spacing: 2px;
     transition: 1s ease-in-out;
