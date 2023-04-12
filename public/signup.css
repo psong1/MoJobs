@@ -63,13 +63,14 @@ a {
     color: VAr(--background1);
 }
 
-#name-signup User,
+#name-signup,
 #email-signup,
 #password-signup{
-    border-color: black;
+    border-color: rgb(166, 213, 211);
     height: 2.5em;
     width: 15em;
     margin-bottom: .5em;
+    border-radius: .5em;
 }
 
 .btn {
