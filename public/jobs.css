@@ -1,14 +1,13 @@
 /*Variables for colors*/
 :root {
-    --background1: rgb(61, 85, 100); 
-    --background2: rgb(232, 239, 237);
-    --background3: rgb(229, 239, 240);
+    --background1: #85dddd;; 
+    --text1: rgb(31, 129, 28);
+    --text2: black;
   }
 
 body {
     display: flex;
     flex-direction:column; 
-    background-color: Var(--background1);
     box-sizing: border-box;
     margin: 0;
     padding: 0;  
@@ -17,6 +16,7 @@ body {
     background-size: cover;
 }
 
+/*Naviation bar parametters*/
 #navbarNav {
     display: flex;
     flex-wrap: wrap;
@@ -26,74 +26,74 @@ body {
 
 }
 
- .search { 
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    height: 34.3em;
- }  
-
-.findJobs {   
-    font-size: 3em;
-    border-radius: 15px; 
-    border: 1.5px solid white;
-    height: 2.5em;
-    width: 10em; 
-    outline: none;
-    color: white;
-    background-color: rgb(61, 73, 100);
-    opacity: .8;
-    border-color: black;
-    border-width: 8px;
-    border-style: double;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
-    
-}
-
-
-
-/*----------------Available jobs---------------------*/
+/*----------------Job cards---------------------*/
 main {
     display: flex;
     flex-wrap: wrap;
   }
   
+  /*parameters for container of cards*/
   .jobs {
     flex: 4;
-    background-color: #85dddd;
+    background-color: var(--background1);
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   
-  
+  /*job card's dimensions*/
   .card {
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
+    margin-bottom: 1em;
     padding: 10px;
-    flex: 0 0 400px;
+    flex: 0 0 180px;
   }
   
   .card header {
     padding: 20px;
-  }
-  
-  .card p {
+    font-size: small;
     text-align: center;
   }
   
+  /*position of text and pictures on cards*/
+  .card p, a {
+    text-align: center;
+    text-decoration: none;
+    color: var(--text2);
+  }
+  
+  /* logo's width*/
   .card img {
     width: 100%;
   }
-  
 
+  /*hover efect on text below image-logo*/
+  p:hover{
+    letter-spacing: 2px;
+    transition: 1s ease-in-out;
+    color: var(--text1);
+}
+
+/*Media query*/
   @media screen and (max-width: 768px) {
-    main,
-    nav {
-      flex-direction: column;
+    main {
+      flex-direction:row;
     }
+  }
+  
+  @media screen and (max-width: 440px) {
+    main {
+      flex-direction:row;
+    }
+    .card img {
+      width: 50%;
+      
+    }  
+    .card p, a {
+   font-size: 1px;
+  }
   }
   
