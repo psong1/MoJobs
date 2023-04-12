@@ -10,7 +10,11 @@
 
         "type": "Full-Time, Junior - Sr level",
 
-        "company": "Google"
+        "company": "Google",
+        
+        "image": "../images/Google_Logo.png",
+        
+        "website": "https://careers.google.com/"
 
     },
 
@@ -26,7 +30,12 @@
 
         "type": "Contract, Entry Level",
 
-        "company": "Nike"
+        "company": "Nike",
+
+        "image": "path to image",
+        
+        "website": "https://jobs.nike.com/"
+
 
 
     },
@@ -43,7 +52,12 @@
 
         "type": "Full-Time, Junior - Sr level",
 
-        "company": "Wells Fargo"
+        "company": "Wells Fargo",
+
+        "image": "path to image",
+        
+        "website": "https://www.wellsfargo.com/about/careers/"
+
 
     },
 
@@ -59,7 +73,12 @@
 
         "type": "Full-Time, Sr level",
 
-        "company": "JPMorgan Chase & CO."
+        "company": "JPMorgan Chase & CO.",
+
+        "image": "path to image",
+        
+        "website": "https://careers.jpmorgan.com/"
+
 
     },
 
@@ -75,7 +94,12 @@
 
         "type": "Contract, Entry level",
 
-        "company": "Gensler"
+        "company": "Gensler",
+
+        "image": "path to image",
+        
+        "website": "https://www.gensler.com/careers"
+
 
     },
 
@@ -91,7 +115,11 @@
 
         "type": "Full-Time, Entry level",
 
-        "company": "Walgreens"
+        "company": "Walgreens",
+
+        "image":"path to image",
+
+        "website":"https://jobs.walgreens.com/en" 
 
     },
 
@@ -107,7 +135,12 @@
 
         "type": "Full-Time, Entry level",
 
-        "company": "Bank of America"
+        "company": "Bank of America",
+
+        "image": "path to image",
+        
+        "website": "https://careers.bankofamerica.com/en-us"
+
 
     },
 
@@ -124,7 +157,12 @@
 
         "type": "Full-Time, Sr. level",
 
-        "company": "Georgia Institute of Technology"
+        "company": "Georgia Institute of Technology",
+
+        "image": "path to image",
+        
+        "website": "https://career.gatech.edu/"
+
 
     },
 
@@ -141,7 +179,12 @@
 
         "type": "Contract, Junior - Sr. level",
 
-        "company": "Tradesmen International, Inc."
+        "company": "Tradesmen International, Inc.",
+
+        "image": "path to image",
+        
+        "website": "https://www.tradesmeninternational.com/jobs/"
+
 
     },
          
@@ -157,7 +200,12 @@
 
         "type": "Full-Time, Junior - Sr. level",
 
-        "company": "Cherokee Casino"
+        "company": "Cherokee Casino",
+
+        "image": "path to image",
+        
+        "website": "https://www.cherokeecasino.com/careers"
+
 
     },
 
@@ -173,7 +221,12 @@
 
         "type": "Full-Time, Entry-Level",
 
-        "company": "UPS"
+        "company": "UPS",
+
+        "image": "path to image",
+        
+        "website": "https://www.jobs-ups.com/"
+
 
     },
     
@@ -189,7 +242,12 @@
 
         "type": "Full-Time, Junior - Sr. level",
 
-        "company": "Truist"
+        "company": "Truist",
+
+        "image": "path to image",
+        
+        "website": "https://careers.truist.com/"
+
 
     },
 
@@ -205,7 +263,12 @@
 
         "type": "Contract, Junior - Sr. level",
 
-        "company": "Adidas"
+        "company": "Adidas",
+
+        "image": "path to image",
+        
+        "website": "https://careers.adidas-group.com/?brand=adidas"
+
 
     },
 
@@ -221,7 +284,12 @@
 
         "type": "Full-Time, Sr. level",
 
-        "company": "Fogo De Chao"
+        "company": "Fogo De Chao",
+
+        "image": "path to image",
+        
+        "website": "https://fogodechao.com/careers/"
+
 
     },
     
@@ -237,7 +305,12 @@
 
         "type": "Full-Time, Junior - Sr. level",
 
-        "company": "Morgan Stanley"
+        "company": "Morgan Stanley",
+
+        "image": "path to image",
+        
+        "website": "https://www.morganstanley.com/people"
+
 
     },
 
@@ -253,7 +326,12 @@
 
         "type": "Full-Time, Entry-level",
 
-        "company": "Tesla"
+        "company": "Tesla",
+
+        "image": "path to image",
+        
+        "website": "https://www.tesla.com/careers"
+
 
     },
 
@@ -269,7 +347,12 @@
 
         "type": "Full-Time, Junior - Sr. level",
 
-        "company": "LA Fitness"
+        "company": "LA Fitness",
+
+        "image": "path to image",
+        
+        "website": "https://lafitness.com/Pages/Employment.aspx"
+
 
     },
     
@@ -285,7 +368,12 @@
 
         "type": "Full-Time, Entry-level",
 
-        "company": "Panera Bread"
+        "company": "Panera Bread",
+
+        "image": "path to image",
+        
+        "website": "https://careers.panerabread.com/"
+
 
     },
     
@@ -301,7 +389,12 @@
 
         "type": "Contract, Entry-level",
 
-        "company": "Southern Gas Company"
+        "company": "Southern Gas Company",
+
+        "image": "path to image",
+        
+        "website": "https://southerncompany.jobs/"
+
 
     },
 
@@ -317,7 +410,12 @@
 
         "type": "Full-Time, Entry-level",
 
-        "company": "Nissan"
+        "company": "Nissan",
+
+        "image": "path to image",
+        
+        "website": "https://www.nissanmotor.jobs/americas/en"
+
 
     }
      
