@@ -36,7 +36,7 @@ body {
 a {
     margin: 1em;
     text-decoration: none; 
-    color:  rgb(61, 85, 100); 
+    color: black; 
     font-family: 'Open Sans', sans-serif;
     font-size: larger;
 }
@@ -63,13 +63,14 @@ a {
     color: VAr(--background1);
 }
 
-#name-signup User,
+#name-signup,
 #email-signup,
 #password-signup{
-    border-color: rgb(3, 50, 65);
+    border-color: rgb(166, 213, 211);
     height: 2.5em;
     width: 15em;
     margin-bottom: .5em;
+    border-radius: .5em;
 }
 
 .btn {
