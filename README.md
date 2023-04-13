@@ -6,6 +6,7 @@
 * [Usage](#usage)
 * [Technologies](#technologies)
 * [Collaborators](#collaborators)
+* [Application](#application)
 
 
 ## [Description](#table-of-contents)
@@ -38,7 +39,7 @@ MoJobs is an is user-friendly and provides beneficial insights, including salary
 
 * [Paul Song](https://github.com/psong1)
 
-## [Application](#application)
+## [Application](#table-of-contents)
 
 * https://secret-tundra-26696.herokuapp.com/
 
