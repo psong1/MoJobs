@@ -3,7 +3,7 @@ const sequelize = require('../config/config');
 const { User, Posts } = require('../models');
 
 const userData = require('./userData');
-const jobsearch = require('./jobssearch.json');
+const jobsearch = require('../public/jobssearch.json');
 
 
 const seedAll = async() => {

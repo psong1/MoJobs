@@ -32,7 +32,7 @@
 
         "company": "Nike",
 
-        "image": "path to image",
+        "image": "../images/Nike_Logo.png",
         
         "website": "https://jobs.nike.com/"
 

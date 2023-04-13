@@ -53,6 +53,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(routes);
 
+// app.get('/data.json', (req, res) => {
+//     res.setHeader('Content-Type', 'application/json');
+//     res.sendFile(__dirname + 'seeds');
+//   });
+
 app.listen(PORT, () => {
 
     console.log(`App is listening on port ${PORT}.`);
