@@ -71,11 +71,11 @@ main {
   }
 
   /*hover efect on text below image-logo*/
-  p:hover{
+  /* p:hover{
     letter-spacing: 2px;
     transition: 1s ease-in-out;
     color: var(--text1);
-}
+} */
 
 /*Media query*/
   @media screen and (max-width: 768px) {
@@ -92,8 +92,8 @@ main {
       width: 50%;
       
     }  
-    .card p, a {
+    /* .card p, a {
    font-size: 1px;
-  }
+  } */
   }
   
