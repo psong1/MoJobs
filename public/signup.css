@@ -59,7 +59,8 @@ a {
     flex-wrap: wrap;
     margin-top: 1em;
     font-size: 20px;
-    color: red;
+    color:black;
+    font-weight: 900;
 }
 
 #name-signup,

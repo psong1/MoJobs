@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 0;  
     background-image: url("asset/6029974.jpg");
-    font-weight: bold; 
+    font-size: small;
     background-size: cover;
 }
 
@@ -27,58 +27,64 @@ body {
 }
 
 /*----------------Job cards---------------------*/
-main {
+.p {
     display: flex;
     flex-wrap: wrap;
   }
   
   /*parameters for container of cards*/
-  .jobs {
+  .card {
     flex: 4;
     background-color: var(--background1);
     padding: 20px;
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
+    width: 200px;
+    margin: 10px;
     justify-content: space-evenly;
   }
   
+ 
   /*job card's dimensions*/
-  .card {
+  .p{
     border-style: solid;
     border-width: 1px;
-    border-radius: 10px;
+    border-radius: 300px;
     margin-bottom: 1em;
     padding: 10px;
-    flex: 0 0 180px;
+    flex: 0 0 100px;
+    
   }
   
   .card header {
     padding: 20px;
-    font-size: small;
+    font-size: medium;
+    font-weight: bold;
     text-align: center;
+    font-family: "Gill Sans", sans-serif;
   }
   
   /*position of text and pictures on cards*/
-  .card p, a {
+  .jobs-container{
     text-align: center;
     text-decoration: none;
     color: var(--text2);
-    font-size: medium;
+   
+    
   }
   
   /* logo's width*/
-  .card img {
+  .img {
     width: 70%;
   }
 
  
 
   /*hover efect on text below image-logo*/
-  p:hover{
+/*  p:hover{
     letter-spacing: 2px;
-    transition: 1s ease-in-out;
     color: var(--text1);
-}
+} */
 
 /*Media query*/
   @media screen and (max-width: 768px) {

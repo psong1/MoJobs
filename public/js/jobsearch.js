@@ -14,6 +14,7 @@ fetch('../seeds/jobssearch.json')
         const image = document.createElement('img');
         image.src = job.image;
         section.appendChild(image);
+        
 
         const location = document.createElement('p');
         location.textContent = job.location;
