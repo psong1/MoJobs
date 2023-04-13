@@ -50,7 +50,7 @@ document
   .querySelector('.signup-form')
   .addEventListener('submit', signup);
 
-// document
-//     .querySelector('.login-input')
-//     .addEventListener('submit', loginFormHandler);
+document
+    .querySelector('.login-input')
+    .addEventListener('submit', loginFormHandler);
 
