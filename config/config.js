@@ -10,7 +10,7 @@ require('dotenv').config();
 
         dialect: 'mysql',
 
-        port: 3306
+        port: process.env.PORT
 
     });
 
