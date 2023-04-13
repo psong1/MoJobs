@@ -14,7 +14,7 @@ const expbars = require('express-handlebars');
 
 const helpers = require('./utils/helpers.js');
 
-const sequelize = require('./config/config');
+// const sequelize = require('./config/config');
 
 // const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
@@ -62,6 +62,6 @@ app.listen(PORT, () => {
 
     console.log(`App is listening on port ${PORT}.`);
 
-    sequelize.sync({force:true});
+    // sequelize.sync({force:true});
 
 })
