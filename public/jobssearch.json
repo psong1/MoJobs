@@ -54,7 +54,7 @@
 
         "company": "Wells Fargo",
 
-        "image": "path to image",
+        "image": "../images/Wells_Fargo_Logo.png",
         
         "website": "https://www.wellsfargo.com/about/careers/"
 
@@ -75,7 +75,7 @@
 
         "company": "JPMorgan Chase & CO.",
 
-        "image": "path to image",
+        "image": "../images/JPMorgan_Chase_Logo.png",
         
         "website": "https://careers.jpmorgan.com/"
 
@@ -96,7 +96,7 @@
 
         "company": "Gensler",
 
-        "image": "path to image",
+        "image": "../images/Gensler_Logo.png",
         
         "website": "https://www.gensler.com/careers"
 
@@ -117,7 +117,7 @@
 
         "company": "Walgreens",
 
-        "image":"path to image",
+        "image":"../images/Walgreens_Logo.png",
 
         "website":"https://jobs.walgreens.com/en" 
 
@@ -137,7 +137,7 @@
 
         "company": "Bank of America",
 
-        "image": "path to image",
+        "image": "../images/Bank_Of_America.png",
         
         "website": "https://careers.bankofamerica.com/en-us"
 
@@ -159,7 +159,7 @@
 
         "company": "Georgia Institute of Technology",
 
-        "image": "path to image",
+        "image": "../images/Georgia_Tech_Logo.png",
         
         "website": "https://career.gatech.edu/"
 
@@ -181,7 +181,7 @@
 
         "company": "Tradesmen International, Inc.",
 
-        "image": "path to image",
+        "image": "../images/Tradesmen_International_Logo.png",
         
         "website": "https://www.tradesmeninternational.com/jobs/"
 
@@ -202,7 +202,7 @@
 
         "company": "Cherokee Casino",
 
-        "image": "path to image",
+        "image": "../images/Cherokee_Casino_Logo.png",
         
         "website": "https://www.cherokeecasino.com/careers"
 
@@ -223,7 +223,7 @@
 
         "company": "UPS",
 
-        "image": "path to image",
+        "image": "../images/UPS_Logo.png",
         
         "website": "https://www.jobs-ups.com/"
 
@@ -244,7 +244,7 @@
 
         "company": "Truist",
 
-        "image": "path to image",
+        "image": "../images/Truist_Logo.png",
         
         "website": "https://careers.truist.com/"
 
@@ -265,7 +265,7 @@
 
         "company": "Adidas",
 
-        "image": "path to image",
+        "image": "../images/Adidas_Logo.png",
         
         "website": "https://careers.adidas-group.com/?brand=adidas"
 
@@ -286,7 +286,7 @@
 
         "company": "Fogo De Chao",
 
-        "image": "path to image",
+        "image": "../images/Fogo_De_Chao_Logo.png",
         
         "website": "https://fogodechao.com/careers/"
 
@@ -307,7 +307,7 @@
 
         "company": "Morgan Stanley",
 
-        "image": "path to image",
+        "image": "../images/Morgan_Stanley_Logo.png",
         
         "website": "https://www.morganstanley.com/people"
 
@@ -328,7 +328,7 @@
 
         "company": "Tesla",
 
-        "image": "path to image",
+        "image": "../images/Tesla_Logo.png",
         
         "website": "https://www.tesla.com/careers"
 
@@ -349,7 +349,7 @@
 
         "company": "LA Fitness",
 
-        "image": "path to image",
+        "image": "../images/LA_Fitness_Logo.png",
         
         "website": "https://lafitness.com/Pages/Employment.aspx"
 
@@ -370,7 +370,7 @@
 
         "company": "Panera Bread",
 
-        "image": "path to image",
+        "image": "../images/Panera_Bread_Logo.png",
         
         "website": "https://careers.panerabread.com/"
 
@@ -391,7 +391,7 @@
 
         "company": "Southern Gas Company",
 
-        "image": "path to image",
+        "image": "../images/Southern_Gas_Company.png",
         
         "website": "https://southerncompany.jobs/"
 
@@ -412,7 +412,7 @@
 
         "company": "Nissan",
 
-        "image": "path to image",
+        "image": "../images/Nissan_Logo.png",
         
         "website": "https://www.nissanmotor.jobs/americas/en"
 
