@@ -37,6 +37,7 @@ fetch('jobssearch.json')
 
         const link = document.createElement('a');
         link.href = job.website;
+        link.setAttribute('target', 'blank');
         link.textContent = "Apply Now!";
         section.appendChild(link);
 
