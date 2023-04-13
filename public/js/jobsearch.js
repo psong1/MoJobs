@@ -1,4 +1,4 @@
-fetch('../seeds/jobssearch.json')
+fetch('jobssearch.json')
 .then(response => response.json())
 .then(data => {
     const jobs = data; // putting JSON data in a variable
@@ -44,6 +44,7 @@ fetch('../seeds/jobssearch.json')
         const jobsContainer = document.getElementById('jobs-container');
         jobsContainer.appendChild(section);
     })
+    console.log(data);
 })
 .catch(error => {
     console.error('Error fetching or parsing job data:', error);

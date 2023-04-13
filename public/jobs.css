@@ -33,7 +33,7 @@ body {
   }
   
   /*parameters for container of cards*/
-  .card {
+  #jobs-container {
     flex: 4;
     background-color: var(--background1);
     padding: 20px;
